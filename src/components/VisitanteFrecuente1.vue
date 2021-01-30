@@ -96,7 +96,7 @@ export default {
 
   /*Configuración espacio*/
   .Pantalla{
-    padding:25px
+    padding:1px
   }
 
   /*Configuración botón favoritos*/

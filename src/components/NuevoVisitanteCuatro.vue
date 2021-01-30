@@ -205,7 +205,7 @@
 
     /*Configuración espacio*/
     .Pantalla{
-        padding-top:5px
+        padding-top:10px
     }
 
     /*Configuración botones aumentar, disminuir*/

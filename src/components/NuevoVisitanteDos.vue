@@ -192,7 +192,7 @@
 
     /*Configuración espacio*/
     .Pantalla{
-        padding-top:130px
+        padding-top:170px
     }
 
     /*Configuración botón de siguiente*/

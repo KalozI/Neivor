@@ -35,7 +35,7 @@
         <!-- Información del usuario-->
         <div class="form-row">
           <!-- Nombre-->
-          <div class="Detalles1 col">Carlos Villa</div>
+          <div class="col" style="font-family: 'Jost', sans-serif;">Carlos Villa</div>
           <!-- Editar datos usuario-->
           <div class="Edit1 col-offset">
             <a href="/nuevovisitanteuno">
@@ -205,7 +205,7 @@
 
     /*Configuración espacio*/
     .Pantalla{
-        padding-top:90px
+        padding-top:5px
     }
 
     /*Configuración botones aumentar, disminuir*/

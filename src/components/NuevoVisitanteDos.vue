@@ -118,7 +118,10 @@
     <div class = "Pantalla"></div>
     
     <!-- Botón de siguiente-->
-    <a href="/nuevovisitantetres"><input type="submit" value="Siguiente"/></a>
+    <a v-if="checked2" href="/nuevovisitantetres"><input type="submit" value="Siguiente"/></a>
+
+    <!-- Botón de siguiente-->
+    <a v-if="!checked2" href="/nuevovisitantecuatro"><input type="submit" value="Siguiente"/></a>
 
   </div>
 </template>
@@ -155,7 +158,9 @@
     /*Configuración barra de progreso*/
     .ProgressBar{
         background: rgb(255, 89, 90);
-        width: 160px
+        width: 160px;
+        position:relative;
+        z-index:-1;
     }
 
     /*Configuración texto información para usuario*/
@@ -168,13 +173,6 @@
         text-align: center;
         margin-left:4%;
         margin-right:4%;
-    }
-
-    /*Configuración Switches*/
-    .Switch1 .active{
-      color: #fff;
-      background-color: #28a745;
-      border-color: #60c076;
     }
 
     /*Configuración textos de los dos datepicker*/
@@ -192,7 +190,7 @@
 
     /*Configuración espacio*/
     .Pantalla{
-        padding-top:170px
+        padding-top:130px
     }
 
     /*Configuración botón de siguiente*/

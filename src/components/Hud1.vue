@@ -86,7 +86,7 @@
 
     /*Configuración espacio*/
     .Pantalla{
-        padding-top:360px
+        padding-top:240px
     }
 
     /*Configuración botón de propietario*/

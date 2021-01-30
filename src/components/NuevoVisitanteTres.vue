@@ -91,6 +91,8 @@
     .ProgressBar{
         background: rgb(255, 89, 90);
         width: 210px;
+        position:relative;
+        z-index:-1;
     }
 
     /*Configuración texto información para usuario*/
@@ -123,7 +125,7 @@
 
     /*Configuración espacio*/
     .Pantalla{
-        padding-top:255px;
+        padding-top:170px;
     }
 
     /*Configuración botón de siguiente*/

@@ -153,18 +153,20 @@
     .Navbar{
         background: rgb(255, 113, 114);
         box-shadow: 0px 5px 5px rgba(44, 44, 44, 0.25);
-        font-family: 'Jost', sans-serif
+        font-family: 'Jost', sans-serif;
     }
 
     /*Configuración texto barra de navegación*/
     .NavText{
-        margin-left:3%
+        margin-left:3%;
     }
 
     /*Configuración barra de progreso*/
     .ProgressBar{
         background: rgb(255, 89, 90);
-        width: 280px
+        width: 280px;
+        position:relative;
+        z-index:-1;
     }
 
     /*Configuración texto DNI del usuario*/
@@ -205,7 +207,7 @@
 
     /*Configuración espacio*/
     .Pantalla{
-        padding-top:10px
+        padding-top:90px
     }
 
     /*Configuración botones aumentar, disminuir*/
@@ -219,10 +221,12 @@
 
     /*Configuración botón recordar en favoritos*/
     .RecordarFavoritos{
-        margin-left:4%;
-        margin-right:4%;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
         font-family: 'Jost', sans-serif;
         font-weight:800;
+        width: 290px;
         box-shadow: 0px 5px 5px rgba(44, 44, 44, 0.25);
     }
 
